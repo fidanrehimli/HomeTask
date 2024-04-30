@@ -1,0 +1,62 @@
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(227,174,206,1) 12%, rgba(148,170,233,1) 100%);
+}
+.deletebtn{
+        background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%);
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+      }
+      .deletebtn:hover {
+        background-position: right center; 
+        color: #fff;
+        text-decoration: none;
+      }
+.deletebtn:hover{
+    color: aqua;
+}
+.updatebtn{
+        background-image: linear-gradient(to right, #e9d362 0%, #333333  51%, #e9d362  100%);
+        width: 130px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+      }
+
+      .updatebtn:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+
+.updatebtn:hover{
+    color: aqua;
+}
+.addbtn{
+        background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+        padding: 15px 45px;
+        width: 130px;
+        border-radius: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+      }
+      .addbtn:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     
